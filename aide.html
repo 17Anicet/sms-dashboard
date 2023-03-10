@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Aide.css"/>
+    <meta name="description" content="Dashboard_page">
+    <title>Aide</title>
+</head>
+<body>
+    <header>
+        <div id="titre">
+            <h2>SMS Zanner</h2>
+        </div>
+        <div class="menu_link">
+            <p class="menu"><img src="images/menu.png" alt=""/></p>
+            <div class="menu_elements">
+                <div class="Dashoard">
+                    <p><img src="images/dashboard.png" alt=""/></p>
+                    <p><a href="dashboard.html">Dashoard</a></p>
+                </div>
+                <div class="images">
+                    <p><img src="images/course_schedule.png" alt=""/></p>
+                    <p><a href="##">courses schedules</a></p>
+                </div>
+                <div class="images">
+                    <p><img src="images/marksheet.png" alt=""/></p>
+                    <p><a href="##">Marksheet</a></p>
+                </div>
+                <div class="images">
+                    <p><img src="images/icon_fees.png" alt=""/></p>
+                    <p><a href="##">School fees</a></p>
+                </div>
+                <div class="images">
+                    <p><img src="images/profile.png" alt=""/></p>
+                    <p><a href="##">My profile</a></p>
+                </div>
+                <div class="images">
+                    <p><img src="images/icon_library.png" alt=""/></p>
+                    <p><a href="##">library</a></p>
+                </div>
+                <div class="images">
+                    <p><img src="images/announcement.png" alt=""/></p>
+                    <p><a href="##">Announcements</a></p>
+                </div>
+                <div class="bouton">
+                    <p><img src="images/icon_logout.png" alt=""/></p>
+                    <p class="bouton_p"><a href="##">Logout</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside class="parti_aide">
+        <div id="parti_aide_block">
+            <h2>#Aide</h2>
+            <div id="parti_aide_p">
+                <p><span>schedule</span> : dans cette option, vous pouvez y retrouver tous vos cours à etudier pour cette...</p>
+            </div>
+            <div id="parti_aide_p">
+                <p><span>Marksheet</span> : dans cette option, vous pouvez y retrouver tous vos cours à etudier pour cette...</p>
+            </div>
+            <div id="parti_aide_p">
+                <p><span>School fees</span> : dans cette option, vous pouvez y retrouver tous vos cours à etudier pour cette...</p>
+            </div>
+            <div id="parti_aide_p">
+                <p><span>My profile</span> : dans cette option, vous pouvez y retrouver tous vos cours à etudier pour cette...</p>
+            </div>
+            <div id="parti_aide_p">
+                <p><span>Library</span> : dans cette option, vous pouvez y retrouver tous vos cours à etudier pour cette...</p>
+            </div>
+            <div id="parti_aide_p">
+                <p><span>Announcement</span> : dans cette option, vous pouvez y retrouver tous vos cours à etudier pour cette...</p>
+            </div>
+        </div>
+    </aside>
+</body>
+<script>
+    const menu = document.querySelector(".menu")
+    const menuElements = document.querySelector(".menu_elements")
+
+    menu.addEventListener('click',()=>{
+    menuElements.classList.toggle('mobile-menu')  
+    })
+</script>
+</html>
